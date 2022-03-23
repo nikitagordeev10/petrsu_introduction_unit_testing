@@ -7,6 +7,8 @@ int fibonachi(int num);
 
 void printStdoutMessages();
 
+void discriminant(float a, float b, float c, float* x1, float* x2, int* flag);
+
 extern int val;
 
 #endif // MYFUNC_H

@@ -1,9 +1,4 @@
-#include "tst_test1.h"
-#include "fibonachi_test.h"
-#include "tst_stdout.h"
-#include "discriminant_positive_test.h"
-#include "discriminant_negative_test.h"
-
+#include "tests.h"
 #include <gtest/gtest.h>
 
 int main(int argc, char *argv[])

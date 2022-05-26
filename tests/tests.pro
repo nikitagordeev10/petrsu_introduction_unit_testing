@@ -18,16 +18,9 @@ DEFINES += INPUTDIR=\\\"$$PWD/input/\\\"
 
 HEADERS +=     tst_test1.h \
     ../app/myfunc.h \
-    discriminant_negative_test.h \
-    discriminant_positive_test.h \
-    fibonachi_test.h \
-    tst_stdout.h
+    tests.h \
 
 SOURCES +=     main.cpp \
     ../app/myfunc.c
 
 INCLUDEPATH += ../app
-
-DISTFILES += \
-    discriminant_negative_test \
-    input/TestSTDOut_output.txt

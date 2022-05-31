@@ -24,10 +24,20 @@
 
 Ошибка №3 
 Дата появления: 26.05.2022
-Описание: Предупреждение в терминале при запуске программы или тестов
-Описание процесса: libgcov profiling error:/home/nikita/projects/8-1-course-university-introduction-unit-testing-lab-1/app/main.gcda:Version mismatch - expected 11.2 (release) (B12*) got 9.4 (release) (A94*)
-Ожидаемый результат: запуск без ошибок не связанных с тестами
-Фактический результат: запуск с ошибками не связанными с тестами
+Описание: Ошибка при выполнении теста incomplete_integer_input_without_first_element
+Описание процесса: деление на ноль
+Ожидаемый результат: целые корни
+Фактический результат: ошибка
 Статус: исправлена
+
+------------------------------------------------------
+
+Ошибка №4
+Дата появления: 31.05.2022
+Описание: Ошибка при проверке кода CI/CD GitHub Actions
+Описание процесса: Project not found. Please check the ‘sonar.projectKey’ and ‘sonar.organization’ properties, the ‘SONAR_TOKEN’ environment variable, or contact the project administrator
+Ожидаемый результат: успешное прохождение тестов
+Фактический результат: ошибки при проверке программы
+Статус: новая
 
 ------------------------------------------------------
